@@ -25,7 +25,7 @@ public class HealthApiService {
 //	 @Autowired 
 //	 UserMapper userMapperImpl;
 
-	@Value("${client.url}")
+	@Value("${clientUrl}")
 	String url;
 
 	public User getUserInfo(int id) {
